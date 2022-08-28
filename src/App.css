@@ -1,0 +1,8 @@
+.App {
+  max-width: 700px;
+  margin: 70px auto;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 2px 0 rgb(133, 104, 250);
+  overflow: hidden;
+}
