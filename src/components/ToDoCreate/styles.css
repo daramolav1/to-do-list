@@ -1,0 +1,21 @@
+.add-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 60%;
+  margin: auto;
+}
+
+.add-container button {
+  margin: 15px 10px 15px 15px;
+  border: none;
+  border-radius: 5px;
+  padding: 0 10px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: background-color 0.2s ease, color 0.2 ease;
+}
+
+.add-container button:hover {
+  background-color: #2ecc40;
+  color: #fff;
+}
