@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-bottom: 4px solid #8373ca;
+  background-color: #e8e7e7;
+  color: #fff;
+  text-align: center;
+}
+
+.header-tab {
+  flex-grow: 1;
+  border-radius: 6px 6px 0px 0;
+  background-color: #5b45b9;
+  text-align: left;
+}
+
+.header-text {
+  padding: 5px 25px;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 00;
+}
