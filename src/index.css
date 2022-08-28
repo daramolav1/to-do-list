@@ -1,0 +1,76 @@
+* {
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-app-region: none;
+}
+
+body {
+  margin: 0;
+  background-color: #e8e7e7;
+  font-family: "Open Sans";
+  text-transform: uppercase !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  flex-grow: 1;
+  font-size: 1.5em;
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  position: relative;
+  justify-content: left;
+  flex-grow: 1;
+  border-bottom: 3px solid #eeeeee;
+  padding: 15px 15px 15px 25px;
+  color: #2f2366;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+}
+
+li:last-child {
+  border-bottom: #d4caff;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  margin: 15px 10px 15px 15px;
+  border-radius: 5px;
+  border-style: none;
+  border-width: 0 0 1px 0;
+  padding: 10px;
+  background-color: #5b45b9;
+  color: #c7bcf8;
+  text-shadow: none;
+  text-transform: none;
+  letter-spacing: 2px;
+  outline: none;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+  color: #c7bcf8;
+  letter-spacing: 2px;
+}
+
+input[type="text"]:focus {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #5b45b9;
+}
+
+button {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
