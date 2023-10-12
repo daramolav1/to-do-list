@@ -4,7 +4,7 @@ To-Do List App is a react app for organizing a list of errands and other tasks t
 
 ## Links
 
-- [Live Demo](https://to-do-list-client.herokuapp.com)
+- [Live Demo](https://to-do-list-app-client.netlify.app/)
 
 ## Screenshots
 
